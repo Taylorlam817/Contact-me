@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -43,29 +43,6 @@
             height: auto;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
-        .office-image {
-            text-align: center;
-            margin: 20px 0;
-        }
-        .office-image img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-        .office-images {
-            display: flex;
-            justify-content: space-between;
-            gap: 10px;
-            margin: 20px 0;
-        }
-        .office-images img {
-            flex: 1;
-            max-width: 48%;
-            height: auto;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
         .contact-info {
             border: 1px solid #ccc;
             padding: 15px;
@@ -81,8 +58,8 @@
         footer a {
             color: #0073e6;
             text-decoration: none;
-            font-size: 18px;
-            font-weight: bold;
+            font-size: 18px; /* Larger font size */
+            font-weight: bold; /* Bold for emphasis */
         }
         footer a:hover {
             text-decoration: underline;
@@ -96,33 +73,47 @@
     </header>
     <main>
         <div class="profile-picture">
-            <img src="https://raw.githubusercontent.com/35905m/HLam/main/Taylor%20Pic%20.jpg" alt="Taylor Lam">
+            <img src="https://via.placeholder.com/150" alt="Taylor Lam">
         </div>
         <div class="section">
             <h2>About Us</h2>
             <p>Taylor Lam Insurance Agency is a dedicated insurance agency based in Arlington, Texas. We specialize in providing personalized insurance solutions for individuals, families, and businesses. Our goal is to ensure you have the right coverage for all aspects of your life and work.</p>
         </div>
-        <div class="office-image">
-            <img src="https://raw.githubusercontent.com/35905m/HLam/main/office%20front%20.jpg" alt="Office Outside Front">
-        </div>
-        <div class="office-images">
-            <img src="https://raw.githubusercontent.com/35905m/HLam/main/office%20lobby.jpg" alt="Office Lobby">
-            <img src="https://raw.githubusercontent.com/35905m/HLam/main/office%20awards%20.jpg" alt="Office Awards">
+        <div class="section contact-info">
+            <h2>Contact Information</h2>
+            <ul>
+                <li><strong>Legal Company Name:</strong> Taylor Lam Insurance Agency</li>
+                <li><strong>State / Country of Registration:</strong> Texas, United States</li>
+                <li><strong>Office Location:</strong> 708 N Fielder Rd,<br>Arlington, TX 76012<br>(817) 200-6397</li>
+                <li><strong>Email:</strong> hlam@farmersagent.com</li>
+                <li><strong>Website:</strong> www.taylorlamagency.com</li>
+                <li><strong>Texas Department of Insurance Lic #:</strong> 2287647</li>
+            </ul>
         </div>
         <div class="section">
-            <h2>Stay covered with updates from Taylor Lam Insurance Agency.</h2>
-            <p>Fill out the form below to opt-in and receive important SMS notifications:</p>
+            <h2>Opt-In for SMS Notifications</h2>
+            <p>Stay updated with important notifications from Taylor Lam Insurance Agency. Please fill out the form below to opt-in:</p>
+
             <!-- Wufoo Form Embed -->
-            <div id="wufoo-slmw2j61egnitv">
-                Fill out my <a href="https://nickmartinezagency.wufoo.com/forms/slmw2j61egnitv">online form</a>.
+    <div>
+        <p>
+            By submitting this form, you agree to our 
+            <a href="https://github.com/Taylorlam817/www.taylorlaminsurance.com/blob/main/updated-privacy-policy.html.txt" target="_blank">Privacy Policy</a> 
+            and 
+            <a href="https://github.com/Taylorlam817/www.taylorlaminsurance.com/blob/main/updated-terms-of-service.html.txt" target="_blank">Terms of Service</a>.
+        </p>
+    </div>
+
+            <div id="wufoo-ss91fpq1vvj84t">
+                Fill out my <a href="https://taylorlamagency.wufoo.com/forms/r1cg1seo1pwng0n/">online form</a>.
             </div>
             <script type="text/javascript">
-                var slmw2j61egnitv;
+                var ss91fpq1vvj84t;
                 (function(d, t) {
                     var s = d.createElement(t),
                         options = {
-                            'userName': 'nickmartinezagency',
-                            'formHash': 'slmw2j61egnitv',
+                            'userName': 'taylorlamagency',
+                            'formHash': 'ss91fpq1vvj84t',
                             'autoResize': true,
                             'height': '560',
                             'async': true,
@@ -135,9 +126,9 @@
                         var rs = this.readyState;
                         if (rs) if (rs != 'complete') if (rs != 'loaded') return;
                         try {
-                            slmw2j61egnitv = new WufooForm();
-                            slmw2j61egnitv.initialize(options);
-                            slmw2j61egnitv.display();
+                            ss91fpq1vvj84t = new WufooForm();
+                            ss91fpq1vvj84t.initialize(options);
+                            ss91fpq1vvj84t.display();
                         } catch (e) {}
                     };
                     var scr = d.getElementsByTagName(t)[0],
@@ -146,24 +137,12 @@
                 })(document, 'script');
             </script>
         </div>
-        <div class="section contact-info">
-            <h2>Contact Information</h2>
-            <ul>
-                <li><strong>Legal Company Name:</strong> Taylor Lam Insurance Agency</li>
-                <li><strong>Texas Department of Insurance Lic #:</strong> 2287647</li>
-                <li><strong>State / Country of Registration:</strong> Texas, United States</li>
-                <li><strong>Office Location:</strong> 708 N Fielder Rd, Arlington, TX 76012</li>
-                <li><strong>Phone:</strong> (817) 200-6397</li>
-                <li><strong>Email:</strong> hlam@farmersagent.com</li>
-                <li><strong>Website:</strong> www.taylorlamagency.com</li>
-            </ul>
-        </div>
     </main>
     <footer>
         <p>
             &copy; 2025 Taylor Lam Insurance Agency. 
-            <a href="https://taylorlamagency.com/privacy-policy" target="_blank">Privacy Policy</a> | 
-            <a href="https://taylorlamagency.com/terms-of-service" target="_blank">Terms of Service</a>
+            <a href="https://github.com/Taylorlam817/www.taylorlaminsurance.com/blob/main/updated-privacy-policy.html.txt" target="_blank">Privacy Policy</a> | 
+            <a href="https://github.com/Taylorlam817/www.taylorlaminsurance.com/blob/main/updated-terms-of-service.html.txt" target="_blank">Terms of Service</a>
         </p>
     </footer>
 </body>
